@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "994801746128",
+    "project_id": "career-fix",
+    "storage_bucket": "career-fix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994801746128:android:3b77778e42a65e37251ed5",
+        "android_client_info": {
+          "package_name": "com.example.careerfix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1gkm1qn4zDV-Xqx1fKEl9WK-T376b-mA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
