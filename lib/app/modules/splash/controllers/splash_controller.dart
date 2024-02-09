@@ -1,15 +1,26 @@
-import 'package:careerfix/view/sign_in/sign_in_screen.dart';
+import 'package:careerfix/app/modules/signin/views/signin_view.dart';
 import 'package:get/get.dart';
 
 class SplashController extends GetxController {
+  //TODO: Implement SplashController
   final _loading = true.obs;
-
   bool get loading => _loading.value;
-
+  final count = 0.obs;
   @override
   void onInit() {
     super.onInit();
+    super.onInit();
     startTimer();
+  }
+
+  @override
+  void onReady() {
+    super.onReady();
+  }
+
+  @override
+  void onClose() {
+    super.onClose();
   }
 
   void startTimer() async {
@@ -20,6 +31,8 @@ class SplashController extends GetxController {
     _loading.value = false;
 
     // Navigate to the SignIn screen
-    Get.off(() => SignInScreen());
+    Get.off(() => SigninView());
   }
+
+  void increment() => count.value++;
 }

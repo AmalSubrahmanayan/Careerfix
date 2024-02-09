@@ -6,5 +6,8 @@ class AppSizedBoxes {
 
   static const sizedboxH10 = SizedBox(height: 10);
   static const sizedboxH20 = SizedBox(height: 20);
+  static const sizedboxH30 = SizedBox(height: 30);
   static const sizedboxH60 = SizedBox(height: 60);
+  static const sizedboxH80 = SizedBox(height: 80);
+  static const sizedboxH120 = SizedBox(height: 120);
 }
