@@ -1,5 +1,6 @@
 import 'package:careerfix/app/core/constants/sizedboxes/app_sizedboxes.dart';
 import 'package:careerfix/app/core/constants/text_styles/app_text_styles.dart';
+import 'package:careerfix/app/modules/bottomnavigationbar/views/bottomnavigationbar_view.dart';
 import 'package:careerfix/app/modules/signup/views/signup_view.dart';
 import 'package:careerfix/app/widgets/custom_button.dart';
 import 'package:careerfix/app/widgets/text_form_fieldwidget.dart';
@@ -62,7 +63,9 @@ class SigninView extends GetView<SigninController> {
                 padding: const EdgeInsets.symmetric(horizontal: 30),
                 child: CustomButton(
                   text: "Sign in",
-                  onTap: () {},
+                  onTap: () {
+                    Get.to(const BottomnavigationbarView());
+                  },
                 ),
               ),
               AppSizedBoxes.sizedboxH30,

@@ -71,7 +71,9 @@ class SignupView extends GetView<SignupController> {
                 padding: const EdgeInsets.symmetric(horizontal: 30),
                 child: CustomButton(
                   text: "Sign Up",
-                  onTap: () {},
+                  onTap: () {
+                    // Get.to(const BottonNavigationBarView());
+                  },
                 ),
               ),
               Row(

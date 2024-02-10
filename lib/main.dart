@@ -1,3 +1,4 @@
+import 'package:careerfix/app/modules/bottomnavigationbar/views/bottomnavigationbar_view.dart';
 import 'package:careerfix/app/modules/signin/views/signin_view.dart';
 import 'package:careerfix/app/modules/signup/views/signup_view.dart';
 import 'package:careerfix/app/modules/splash/views/splash_view.dart';
@@ -14,7 +15,7 @@ void main() {
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
       // home: SplashView(),
-      home: SigninView(),
+      home: BottomnavigationbarView(),
     ),
   );
 }
